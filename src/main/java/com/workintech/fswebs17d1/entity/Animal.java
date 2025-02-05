@@ -1,20 +1,20 @@
 package com.workintech.fswebs17d1.entity;
 
 public class Animal {
-    private int Integer;
+    private int id;
     private String name;
 
     public Animal(int integer, String name) {
-        Integer = integer;
+        id = integer;
         this.name = name;
     }
 
-    public int getInteger() {
-        return Integer;
+    public int getId() {
+        return id;
     }
 
-    public void setInteger(int integer) {
-        Integer = integer;
+    public void setId(int integer) {
+        id = integer;
     }
 
     public String getName() {
@@ -28,7 +28,7 @@ public class Animal {
     @Override
     public String toString() {
         return "Animal{" +
-                "Integer=" + Integer +
+                "Integer=" + id +
                 ", name='" + name + '\'' +
                 '}';
     }
